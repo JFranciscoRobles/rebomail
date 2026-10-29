@@ -1,0 +1,14 @@
+{
+  "name": "@rebomail/core",
+  "version": "0.1.0",
+  "description": "The engine: an email of blocks (sections and columns holding others), what is done to it as it is written, and the HTML and text every inbox reads. No DOM.",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  }
+}

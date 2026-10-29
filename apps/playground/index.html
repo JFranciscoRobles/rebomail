@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rebomail playground</title>
+    <link rel="icon" href="/logo.svg" type="image/svg+xml" />
+    <style>
+      html, body { margin: 0; background: #f6f6f7; }
+      @media (prefers-color-scheme: dark) { html:not([data-theme="light"]), html:not([data-theme="light"]) body { background: #18181b; color: #ececee; } }
+      html[data-theme="dark"], html[data-theme="dark"] body { background: #18181b; color: #ececee; }
+    </style>
+  </head>
+  <body>
+    <div id="mail"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

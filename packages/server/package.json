@@ -1,0 +1,17 @@
+{
+  "name": "@rebomail/server",
+  "version": "0.1.0",
+  "description": "Sending the emails and following them: each one made for whom it goes to, sent with Resend or by SMTP, its openings and clicks counted, and stopping them in one click. No dependencies but core.",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@rebomail/core": "*"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  }
+}

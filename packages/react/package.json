@@ -1,0 +1,22 @@
+{
+  "name": "@rebomail/react",
+  "version": "0.1.0",
+  "description": "The email written on itself, in React: the whole editor as one component, or its parts (the canvas, the palette, the panel, the preview) and headless hooks for an interface of one's own.",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./styles.css": "./src/styles.css"
+  },
+  "dependencies": {
+    "@rebomail/core": "*"
+  },
+  "peerDependencies": {
+    "react": ">=19",
+    "react-dom": ">=19"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  }
+}
